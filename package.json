@@ -1,0 +1,15 @@
+{
+  "name": "jest-inspect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node debug --debug-brk ./node_modules/.bin/jest -i",
+    "inspect": "node --inspect --debug-brk ./node_modules/.bin/jest -i"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-cli": "^15.1.1"
+  }
+}
